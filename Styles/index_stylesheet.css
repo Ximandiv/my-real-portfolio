@@ -1,0 +1,89 @@
+*{
+    font-family: 'Abhaya Libre', serif;
+    color: rgb(204, 204, 204);
+}
+
+body {
+    padding-top: 56px;
+}
+.nav-color{
+    background-color: #232D3F;
+}
+.side-color{
+    background-color: #005B41;
+}
+.body-color{
+    background-color: #008170;
+}
+
+.sidebar {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #858383;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidebar a:hover {
+    color: rgb(204, 204, 204);
+    background-color: #004b34;
+}
+
+nav p{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.closebtn{
+    margin-left: 245px;
+    margin-top: 10px;
+}
+
+.openbtn{
+    margin-top: 10px;
+}
+
+#sidebarButton{
+    position: fixed;
+    transition: 0.5s;
+    color: rgb(204, 204, 204);
+}
+
+#sidebarButton:hover{
+    background-color: #41506b;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+}
+
+#main span{
+    font-size: 15px;
+}
+
+.left-spacing{
+    padding-left: 56px;
+}
+
+.left-spacing img{
+    border-radius: 80px;
+}
+
+footer{
+    text-align: center;
+}
